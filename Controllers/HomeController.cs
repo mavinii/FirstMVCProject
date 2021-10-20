@@ -23,17 +23,17 @@ namespace FirstMVCProject.Controllers
             return View();
         }
 
-        //It creates a page called Produts
-        public IActionResult Produts()
-        {
-            return View();
-        }
+        ////It creates a page called Produts
+        //public IActionResult Produts()
+        //{
+        //    return View();
+        //}
 
-        //It creates a page called Store
-        public IActionResult Store()
-        {
-            return View();
-        }
+        ////It creates a page called Store
+        //public IActionResult Store()
+        //{
+        //    return View();
+        //}
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
